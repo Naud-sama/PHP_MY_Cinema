@@ -1,0 +1,125 @@
+body {
+	color: white;
+	margin: auto;
+	background-image: url("./img/cinema.jpeg");
+	background-attachment: fixed;
+}
+
+#ger {
+	float: right;
+	color: violet;
+	margin-right: 10px;
+}
+
+header {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	color:white;
+	background: linear-gradient(blue, black);
+}
+
+#logo {
+	margin-left: 150px;
+	width: 282px;
+	height: 50px;
+}
+
+#button {
+	margin-top: 2px;
+}
+
+.buttons {
+	display:inline-block;
+	width:140px;
+	line-height:40px;
+	text-decoration:none;
+	color: white;
+	background: linear-gradient(red, orange);
+	border-radius: 20px;
+	text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+				0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.buttons:active{
+	background: linear-gradient(red, orange);
+	box-shadow: 1px 1px 10px black inset, 
+				0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+article input {
+	width: 420px;
+}
+
+#search {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#block {
+	display: block;
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+#filter {
+	text-align: center;
+}
+
+p {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+#abo table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+}
+
+th {
+	padding: 10px;
+}
+
+#red table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.ps {
+	margin-left: 25%;
+}
+
+.txt {
+	margin-left: 5%;
+}
+
+#psc {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+/*footer {
+	top: 50%;
+	background-attachment: fixed;
+	background: linear-gradient(red, blue);
+	height: 100px;
+}*/
